@@ -13,7 +13,11 @@
 <body>
     <div class="main">
         {{>header}}
-        {{error}}
+        <div style="margin-top: 24px">
+            <h3>{{ heading }}</h3>
+            <p> This is a weather website that uses Nodejs as backend and javascript as frontend. It uses api from
+                mapbox.com and darksky.net . </p>
+        </div>
     </div>
     {{>footer}}
 </body>

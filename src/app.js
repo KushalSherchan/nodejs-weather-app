@@ -30,9 +30,8 @@ app.get("", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "Random",
-    pageTitle: "About this website",
-    details: "We are a ecommerce website"
+    title: "About",
+    heading: "About this website"
   });
 });
 
@@ -65,7 +64,7 @@ app.get("/weather", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    title: "Honesty is the best policy",
+    title: "Help",
     longDesc: "Rambling about the lack of help gotten till now"
   });
 });
